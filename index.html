@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ven.css">
+  <title>スタバ</title>
+</head>
+
+<body>
+
+  <div id = "stbLine"></div>
+
+  <h1 style="text-align:center;">STARBUCKSへようこそ</h1>
+
+  <!-- 自動販売機 -->
+  <div id="vending-machine">
+    <div id="drink-area">
+      <ul>
+
+        <!-- 焼き芋ブリュレ -->
+        <li class="item1">
+          <figure>
+            <img
+              src="https://fashionsnap-assets.com/asset/format=auto,width=2000/article/images/2022/09/starbucks-new-20220912-3-1.jpg"
+              width="1000" height="100" alt="">
+            <figcaption id="item1-caption">焼き芋ブリュレ</figcaption>
+          </figure>
+
+          <!-- 値段表示 -->
+          <div id="disp-item1">
+            <span>￥</span>
+            <svg class="num1" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num2" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num3" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num4" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+          </div>
+
+          <div class="control">
+            <button class="key" data-key="item1">購入</button>
+          </div>
+        </li>
+
+
+        <!-- クリームブリュレ -->
+        <li class="item2">
+          <figure>
+            <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785443655/4524785443655_1_m.jpg"
+              width="50" height="77" alt="">
+            <figcaption id="item2-caption">クリームブリュレ </figcaption>
+          </figure>
+
+
+          <div id="disp-item2">
+            <span>￥</span>
+            <svg class="num1" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num2" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num3" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num4" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+          </div>
+
+
+          <div class="control">
+            <button class="key" data-key="item2">購入</button>
+          </div>
+        </li>
+
+        <!-- ストロベリー -->
+        <li class="item3">
+          <figure>
+            <img
+              src="https://contents.oricon.co.jp/cdn-cgi/image/width=750,quality=85,format=auto/upimg/news/2236000/2235499/20220502_104748_p_o_3389.jpg"
+              width="50" height="77" alt="">
+            <figcaption id="item3-caption">ストロベリー</figcaption>
+          </figure>
+
+
+          <div id="disp-item3">
+            <span>￥</span>
+            <svg class="num1" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num2" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num3" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num4" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+          </div>
+
+
+          <div class="control">
+            <button class="key" data-key="item3">購入</button>
+          </div>
+        </li>
+
+        <!-- メロンofメロン -->
+        <li class="item4">
+          <figure>
+            <img src="https://www.ozmall.co.jp/Content/upload/images/RTG6FJPM436WGLVD3FQLNSZE2I.jpg" width="50"
+              height="77" alt="">
+            <figcaption id="item4-caption">メロンofメロン</figcaption>
+          </figure>
+
+
+          <div id="disp-item4">
+            <span>￥</span>
+            <svg class="num1" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num2" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num3" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num4" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+          </div>
+          <div class="control">
+            <button class="key" data-key="item4">購入</button>
+          </div>
+        </li>
+
+        <!-- チョコレート -->
+        <li class="item5">
+          <figure>
+            <img src="https://www.fashion-press.net/img/news/68834/xKM.jpg" width="50" height="77" alt="">
+            <figcaption id="item5-caption">チョコレート</thead>
+            </figcaption>
+          </figure>
+
+
+          <div id="disp-item5">
+            <span>￥</span>
+            <svg class="num1" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num2" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num3" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num4" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+          </div>
+
+
+          <div class="control">
+            <button class="key" data-key="item5">購入</button>
+          </div>
+        </li>
+
+
+        <!-- ジンジャーブレッド -->
+        <li class="item6">
+          <figure>
+            <img src="https://asset.menu.starbucks.co.jp/public/sku_images/4524785033153/4524785033153_1_m.jpg"
+              width="50" height="77" alt="">
+            <figcaption id="item6-caption">ジンジャーブレッド</figcaption>
+          </figure>
+
+
+          <div id="disp-item6">
+            <span>￥</span>
+            <svg class="num1" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num2" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num3" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+            <svg class="num4" viewBox="0 0 20 36.5">
+              <use xlink:href="#diginone"></use>
+            </svg>
+          </div>
+
+
+          <div class="control">
+            <button class="key" data-key="item6">購入</button>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+
+    <!-- お金入れるところ -->
+    <div id="insert-area">
+      <div id="disp-insert">
+        <span>￥</span>
+        <svg class="num1" viewBox="0 0 20 36.5">
+          <use xlink:href="#diginone"></use>
+        </svg>
+        <svg class="num2" viewBox="0 0 20 36.5">
+          <use xlink:href="#diginone"></use>
+        </svg>
+        <svg class="num3" viewBox="0 0 20 36.5">
+          <use xlink:href="#diginone"></use>
+        </svg>
+        <svg class="num4" viewBox="0 0 20 36.5">
+          <use xlink:href="#diginone"></use>
+        </svg>
+      </div>
+    </div>
+
+
+    <!-- ボタン -->
+    <div id="coin-area">
+      <button class="key coin" data-key="coin1">10円</button>
+      <button class="key coin" data-key="coin2">50円</button>
+      <button class="key coin" data-key="coin3">100円</button>
+      <button class="key coin" data-key="coin4">500円</button>
+      <button class="key coin" data-key="coin5">1000円</button>
+    </div>
+
+
+    <!-- お釣り -->
+    <div id="charge-area">
+      <div id="disp-charge">
+        <span>お釣り￥</span>
+        <svg class="num1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 36.5">
+          <use xlink:href="#diginone"></use>
+        </svg>
+        <svg class="num2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 36.5">
+          <use xlink:href="#diginone"></use>
+        </svg>
+        <svg class="num3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 36.5">
+          <use xlink:href="#diginone"></use>
+        </svg>
+        <svg class="num4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 36.5">
+          <use xlink:href="#diginone"></use>
+        </svg>
+      </div>
+
+
+
+      <button class="key coin-charge" data-key="lever">返金</button>
+
+    </div>
+
+
+
+    <div id="info-area">
+      <p id="info"></p>
+    </div>
+  </div>
+  <svg display="none">
+    <defs>
+
+      <symbol id="diginum1" viewBox="0 0 20 36.5">
+        <g>
+          <path fill="#FFEEAD" class="t-left" d="M1.8,2.4L0,4.2v11.6l1.8,1.8l1.8-1.8V4.2L1.8,2.4z" />
+          <path fill="#D9534F" class="t-right" d="M18.2,2.4l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V4.2L18.2,2.4z" />
+          <path fill="#FFEEAD" class="b-left" d="M1.8,18.9L0,20.7v11.6l1.8,1.8l1.8-1.8V20.7L1.8,18.9z" />
+          <path fill="#D9534F" class="b-right" d="M18.2,18.9l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V20.7L18.2,18.9z" />
+          <path fill="#FFEEAD" class="middle" d="M17.6,18.3l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,18.3z" />
+          <path fill="#FFEEAD" class="top" d="M17.6,1.8L15.8,0H4.2L2.4,1.8l1.8,1.8h11.6L17.6,1.8z" />
+          <path fill="#FFEEAD" class="bottom" d="M17.6,34.7l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,34.7z" />
+        </g>
+      </symbol>
+      <symbol id="diginum2" viewBox="0 0 20 36.5">
+        <g>
+          <path fill="#FFEEAD" class="t-left" d="M1.8,2.4L0,4.2v11.6l1.8,1.8l1.8-1.8V4.2L1.8,2.4z" />
+          <path fill="#D9534F" class="t-right" d="M18.2,2.4l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V4.2L18.2,2.4z" />
+          <path fill="#D9534F" class="b-left" d="M1.8,18.9L0,20.7v11.6l1.8,1.8l1.8-1.8V20.7L1.8,18.9z" />
+          <path fill="#FFEEAD" class="b-right" d="M18.2,18.9l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V20.7L18.2,18.9z" />
+          <path fill="#D9534F" class="middle" d="M17.6,18.3l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,18.3z" />
+          <path fill="#D9534F" class="top" d="M17.6,1.8L15.8,0H4.2L2.4,1.8l1.8,1.8h11.6L17.6,1.8z" />
+          <path fill="#D9534F" class="bottom" d="M17.6,34.7l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,34.7z" />
+        </g>
+      </symbol>
+      <symbol id="diginum3" viewBox="0 0 20 36.5">
+        <g>
+          <path fill="#FFEEAD" class="t-left" d="M1.8,2.4L0,4.2v11.6l1.8,1.8l1.8-1.8V4.2L1.8,2.4z" />
+          <path fill="#D9534F" class="t-right" d="M18.2,2.4l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V4.2L18.2,2.4z" />
+          <path fill="#FFEEAD" class="b-left" d="M1.8,18.9L0,20.7v11.6l1.8,1.8l1.8-1.8V20.7L1.8,18.9z" />
+          <path fill="#D9534F" class="b-right" d="M18.2,18.9l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V20.7L18.2,18.9z" />
+          <path fill="#D9534F" class="middle" d="M17.6,18.3l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,18.3z" />
+          <path fill="#D9534F" class="top" d="M17.6,1.8L15.8,0H4.2L2.4,1.8l1.8,1.8h11.6L17.6,1.8z" />
+          <path fill="#D9534F" class="bottom" d="M17.6,34.7l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,34.7z" />
+        </g>
+      </symbol>
+      <symbol id="diginum4" viewBox="0 0 20 36.5">
+        <g>
+          <path fill="#D9534F" class="t-left" d="M1.8,2.4L0,4.2v11.6l1.8,1.8l1.8-1.8V4.2L1.8,2.4z" />
+          <path fill="#D9534F" class="t-right" d="M18.2,2.4l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V4.2L18.2,2.4z" />
+          <path fill="#FFEEAD" class="b-left" d="M1.8,18.9L0,20.7v11.6l1.8,1.8l1.8-1.8V20.7L1.8,18.9z" />
+          <path fill="#D9534F" class="b-right" d="M18.2,18.9l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V20.7L18.2,18.9z" />
+          <path fill="#D9534F" class="middle" d="M17.6,18.3l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,18.3z" />
+          <path fill="#FFEEAD" class="top" d="M17.6,1.8L15.8,0H4.2L2.4,1.8l1.8,1.8h11.6L17.6,1.8z" />
+          <path fill="#FFEEAD" class="bottom" d="M17.6,34.7l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,34.7z" />
+        </g>
+      </symbol>
+      <symbol id="diginum5" viewBox="0 0 20 36.5">
+        <g>
+          <path fill="#D9534F" class="t-left" d="M1.8,2.4L0,4.2v11.6l1.8,1.8l1.8-1.8V4.2L1.8,2.4z" />
+          <path fill="#FFEEAD" class="t-right" d="M18.2,2.4l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V4.2L18.2,2.4z" />
+          <path fill="#FFEEAD" class="b-left" d="M1.8,18.9L0,20.7v11.6l1.8,1.8l1.8-1.8V20.7L1.8,18.9z" />
+          <path fill="#D9534F" class="b-right" d="M18.2,18.9l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V20.7L18.2,18.9z" />
+          <path fill="#D9534F" class="middle" d="M17.6,18.3l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,18.3z" />
+          <path fill="#D9534F" class="top" d="M17.6,1.8L15.8,0H4.2L2.4,1.8l1.8,1.8h11.6L17.6,1.8z" />
+          <path fill="#D9534F" class="bottom" d="M17.6,34.7l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,34.7z" />
+        </g>
+      </symbol>
+      <symbol id="diginum6" viewBox="0 0 20 36.5">
+        <g>
+          <path fill="#D9534F" class="t-left" d="M1.8,2.4L0,4.2v11.6l1.8,1.8l1.8-1.8V4.2L1.8,2.4z" />
+          <path fill="#FFEEAD" class="t-right" d="M18.2,2.4l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V4.2L18.2,2.4z" />
+          <path fill="#D9534F" class="b-left" d="M1.8,18.9L0,20.7v11.6l1.8,1.8l1.8-1.8V20.7L1.8,18.9z" />
+          <path fill="#D9534F" class="b-right" d="M18.2,18.9l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V20.7L18.2,18.9z" />
+          <path fill="#D9534F" class="middle" d="M17.6,18.3l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,18.3z" />
+          <path fill="#D9534F" class="top" d="M17.6,1.8L15.8,0H4.2L2.4,1.8l1.8,1.8h11.6L17.6,1.8z" />
+          <path fill="#D9534F" class="bottom" d="M17.6,34.7l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,34.7z" />
+        </g>
+      </symbol>
+
+      <symbol id="diginum0" viewBox="0 0 20 36.5">
+        <g>
+          <path fill="#D9534F" class="t-left" d="M1.8,2.4L0,4.2v11.6l1.8,1.8l1.8-1.8V4.2L1.8,2.4z" />
+          <path fill="#D9534F" class="t-right" d="M18.2,2.4l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V4.2L18.2,2.4z" />
+          <path fill="#D9534F" class="b-left" d="M1.8,18.9L0,20.7v11.6l1.8,1.8l1.8-1.8V20.7L1.8,18.9z" />
+          <path fill="#D9534F" class="b-right" d="M18.2,18.9l-1.8,1.8v11.6l1.8,1.8l1.8-1.8V20.7L18.2,18.9z" />
+          <path fill="#FFEEAD" class="middle" d="M17.6,18.3l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,18.3z" />
+          <path fill="#D9534F" class="top" d="M17.6,1.8L15.8,0H4.2L2.4,1.8l1.8,1.8h11.6L17.6,1.8z" />
+          <path fill="#D9534F" class="bottom" d="M17.6,34.7l-1.8-1.8H4.2l-1.8,1.8l1.8,1.8h11.6L17.6,34.7z" />
+        </g>
+
+    </defs>
+  </svg>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script src="ven.css"></script>
+  <script src="ven.js"></script>
+
+
+
+
+</body>
+
+</html>
