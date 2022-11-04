@@ -1,0 +1,177 @@
+body {
+  color: green;
+  margin: 0;
+  padding: 0;
+  /* user-select: none; */
+  /* -webkit-user-select: none; */
+  font-weight: bold;
+
+  background: #efefbb;
+  background: linear-gradient(to right, green, #efefbb, white);
+  
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+h1{
+  font-size: 80px;
+}
+
+div {
+  color:black;
+}
+
+#vending-machine ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#vending-machine li {
+  background: #ffeead;
+  color: green;
+  flex: 1 100px;
+  margin: 10;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+#vending-machine img {
+  width: 500px;
+  height: 500px;
+}
+
+#vending-machine svg {
+  width: 20px;
+}
+
+#vending-machine p {
+  margin: 20;
+}
+
+#vending-machine figure {
+  margin: 20;
+}
+
+#vending-machine figcaption {
+  color: green;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+#vending-machine {
+  background: green;
+  width: 2000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+
+#drink-area {
+  background: #ffeead;
+  border-radius: 100px;
+}
+
+#insert-area {
+  background: #ffeead;
+  color: green;
+  font-weight: bold;
+  border-radius: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+#coin-area {
+  margin-top: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#charge-area {
+  padding-top: 50px;
+  border-top: 1px solid #ffeead;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#info-area {
+  background: #ffeead;
+  color: #d9534f;
+  font-weight: bold;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+#disp-charge {
+  background: #ffeead;
+  color: #d9534f;
+  font-weight: bold;
+  margin-right: 20px;
+  padding: 10px 12px;
+  line-height: 20px;
+  border-radius: 8px;
+  font-size: 50px;
+}
+
+.control button,
+.coin,
+.coin-charge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background: #96ceb4;
+  color: #fff;
+  border-color: #96ceb4;
+  border-radius: 80px;
+  width: 80%;
+  height: 80px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(150, 206, 180, 0.1),
+    0 2px 4px -1px rgba(150, 206, 180, 0.06);
+  touch-action: manipulation;
+  font-size: 50px;
+}
+
+.coin {
+  width: auto;
+  font-weight: bold;
+}
+
+.coin-charge {
+  width: 500px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+
+#stbLine{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+font-size: larger;
+}
+
+img{
+  max-width: 
+}
